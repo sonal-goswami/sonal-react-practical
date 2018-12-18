@@ -107,7 +107,7 @@ class Adult extends Component {
       >
         <div className="text">Default State</div>
         <div className="container">
-          <img src={adultImage} className="adultImg" /> {adult} Adult , {child}{" "}
+          <img src={adultImage} className="adultImg" alt="img"/> {adult} Adult , {child}{" "}
           Child , {baby} Baby
         </div>
         <button onClick={this.toggleHidden} className="togglebtn">
